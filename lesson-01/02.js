@@ -6,4 +6,20 @@
 */
 
 // your code
-let factorial
+let factorial = 1
+let x = 1
+while (x <= 10) {
+    factorial = factorial * x
+    console.log(factorial)
+    x = x + 1
+}
+/* 1*1=1
+1*2=2
+2*3=6
+6*4=24
+24*5=120
+120*6=720
+720*7=5040
+5040*8=40320
+40320*9=362880
+362880*10=3628800*/
