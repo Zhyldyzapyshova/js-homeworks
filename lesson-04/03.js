@@ -20,7 +20,7 @@ findCommonElements([1, 2, 3], [2, 3, 4]) // [2, 3]
 
 function findCommonElements(array1, array2) {
     let newArr = [];
-    for(let i = 0; i < array1.length; i++){
+    for(let i = 0; i < array1.length - 1; i++){
         let element = array1[i];
         if(array2.includes(element) && !newArr.includes(element)){
             newArr.push(element)
@@ -28,8 +28,11 @@ function findCommonElements(array1, array2) {
     }
     return newArr
 }
+let array11 = ['apple', 'banana']
+let array22 = ['orange', 'melon', 'banana']
 
-let array11 = [1, 2, 3, 5, 6, 2]
-let array22 = [2, 4, 6, 7 ]
+
+
+
 
 console.log(findCommonElements(array11, array22))
