@@ -29,7 +29,3 @@ function findCommonElements(array1, array2) {
     }
     return newArr;
 }
-let array11 = ['apple', 'banana']
-let array22 = ['banana', 'banana', 'banana', 'apple']
-
-console.log(findCommonElements(array11, array22))
